@@ -489,36 +489,37 @@ button.contact-bottom {
 }
 
 .one {
-  grid-column: 1 / 1;
-  grid-row: 1;
-  text-align: center;
+  grid-column: 3;
+	grid-row: 1;
+	text-align: center;
 }
 .two { 
-  grid-column: 2 / 6;
+  grid-column:4;
   grid-row: 1 / 2;
   padding-left:20px;
 
 }
 .three {
-  grid-column: ;
-  grid-row: 2 / 3;
-text-align: center;
+  grid-column: 4/3;
+    grid-row: 2 / 3;
+    text-align: center;
+        padding-top: 7px;
 }
 .four {
-  grid-column: 2/6;
-  grid-row: 2/3;
-  padding-left:20px;
+    grid-column: 4;
+    grid-row: 2/3;
+      padding-left:20px;
+      padding-top: 7px;
 }
 .five {
-  grid-column: 1/2;
-  grid-row: 3/4;
-text-align: center;
+      grid-column: 3;
+    grid-row: 3/4;
+    text-align: center;
 }
 .six {
-  grid-column: 2/6;
+  grid-column: 4/6;
     grid-row: 3/3;
-  padding-left:20px;
-
+      padding-left:20px;
 }
 
 
