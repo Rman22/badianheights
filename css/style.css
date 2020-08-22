@@ -459,18 +459,13 @@ button.contact-bottom {
 	text-align: center;
 }
 .details-group{
-
-	position: relative;
-	margin-left: 25%;
-	margin-right: 25%;
-	width: 50%;
-	font-size: 16px;
-	padding: 10px;
-
-	color: #fff;
-	border-radius: 5px;
-
-	font-family: 'Montserrat', sans-serif;
+    position: relative;
+    margin: auto;
+    font-size: 16px;
+    padding: 10px;
+    color: #fff;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
 
 }
 
