@@ -80,7 +80,7 @@ li a{
     top: 0;
  	font-family:'Montserrat', sans-serif;
     right: 0;
-    background-color:#E27D60;
+    background-color:  rgba(0,0,0,.8);
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
