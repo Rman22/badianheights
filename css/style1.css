@@ -14,7 +14,7 @@ html{
 
 }
 body{ 
-        overflow:hidden !important;
+        overflow-x:hidden !important;
 	margin: 0;
 	padding: 0;
 	background: #fff;
