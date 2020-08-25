@@ -36,6 +36,10 @@ header{
     margin: auto !important;
 
 }
+.links{
+      overflow: hidden;
+
+}
 ul {
 	list-style: none;
 	float: right;
