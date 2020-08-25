@@ -319,7 +319,13 @@ function closeNav() {
 	distance: '300px',
 	reset: true
 	});
-
+$(document).ready(function(){
+        $('header').css('width',$(window).width());
+        $(window).resize(function(){
+            $('header').css('width',$(window).width());
+            /* and in your CSS: section { overflow: hidden; } */
+        });
+    });
 	
 
 </script>
