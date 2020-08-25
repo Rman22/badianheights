@@ -126,6 +126,7 @@ li a{
 	text-align: center;
 		font-family: font-family: 'Caveat', cursive;
 		display: block;
+        overflow: hidden;
 }
 .background-img img{
 	width: 100%;
