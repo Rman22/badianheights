@@ -26,6 +26,7 @@ header{
 		display:block;
 		position: fixed;
 		z-index: 99;
+                overflow: hidden;
 }
 .logo img{
 	    height: 60px;
