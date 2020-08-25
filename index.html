@@ -306,7 +306,19 @@ function closeNav() {
 	distance: '300px'
 
 	});	
+	sr.reveal('.form-one',{
+	duration: 3000,
+	origin: 'left',
+	reset: true,
+	distance: '300px'
 
+	});
+	sr.reveal('.wrapper',{
+	duration: 3000,
+	origin: 'right',
+	distance: '300px',
+	reset: true
+	});
         $(document).ready(function(){
         $('.row').css('width',$(window).width());
         $(window).resize(function(){
