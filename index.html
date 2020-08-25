@@ -299,7 +299,21 @@ function closeNav() {
 	distance: '50px'
 
 	});
+        sr.reveal('.left',{
+	duration: 3000,
+	origin: 'left',
+	reset: true,
+	distance: '300px'
 
+	});	
+
+        $(document).ready(function(){
+        $('.row').css('width',$(window).width());
+        $(window).resize(function(){
+            $('.row').css('width',$(window).width());
+            /* and in your CSS: section { overflow: hidden; } */
+        });
+    });
 $(document).ready(function(){
         $('header').css('width',$(window).width());
         $(window).resize(function(){
