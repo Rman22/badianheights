@@ -14,7 +14,9 @@ html{
 
 }
 
-
+html.sr .perfect{
+    visibility: hidden;
+}
 body{ 
         overflow-x:hidden !important;
 	margin: 0;
