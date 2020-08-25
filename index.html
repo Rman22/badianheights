@@ -4,11 +4,12 @@
 	<title>Badian Heights</title>
   	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/style1.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	<script src="js/maisn.js"></script>
+	<script src="https://unpkg.com/scrollreveal"></script>
+	<script src="js/main2.js"></script>	
 
 </head>
 <body>
@@ -28,16 +29,16 @@
 			</div>
 			 <a href="#">
 			 	<span class="icon" style="font-size:20px;cursor:pointer" onclick="openNav()">&#9776;</span>
-  		 <!-- <i class="fa fa-bars"></i>--> </a>
+  		 <!-- <i class="fa fa-bars"></	i>--> </a>
 		</ul>
 		</div>
 	</header>
 	<div id="mySidenav" class="sidenav">
 	  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-	  <a href="#home" class="linked">Home</a>
-	  <a href="#photograph" class="linked">Photograph</a>
-	  <a href="#about" class="linked">About</a>
-	  <a href="#contact" class="linked">Contact</a>
+	  <a href="#home" class="linked"><i class="fa fa-home"></i>   Home</a>
+	  <a href="#photograph" class="linked"><i class="fa fa-camera-retro"></i>   Photograph</a>
+	  <a href="#about" class="linked"><i class="	fa fa-question-circle-o"></i>    About</a>
+	  <a href="#contact" class="linked"><i class="fa fa-address-card-o"></i>   Contact</a>
 	</div>
 	<hr>	
 	<div class="container"  id="home" >
@@ -45,9 +46,9 @@
 			<img  src="img/content.jpg" alt="BADIAN HEIGHTS">
 		</div>
 		<div class="container-text">
-		 	<H2>BADIAN HIGHLANDS </H2>
-		 	<h3>| Take a break & Enjoy the view |</h3>
-		 	<button>Let's go</button>
+		 	<h2 class="title">BADIAN HIGHLANDS </h2>
+		 	<h3 class="discript">| Take a break & Enjoy the view |</h3>
+		 	<button class="direct">Let's go</button>
 	 	</div>
 	 	<div class="menu2" id="photograph">|  Photographs  |</a>
 	</div>
@@ -150,7 +151,7 @@
 					<br>
 					"We open this site for sightseeing and to those who want to walk, jog, bike, and joy-ride with a view," he said.
 
-					To reach the Badian Highlands, vehicles will take the 13-kilometer road that covers barangays Poblacion, Taytay, Basak, Talayong, and Dobdob from the national highway.</p>
+					To reach the Badian Highlands, vehicles will take the 13-kilometer road that covers barangays Poblacion, Taytay, Basak, Talayong, and Dobdob from the national highway. - Via SunStar Cebu</p>
 				</div>
 			</div>
 		</div>
@@ -266,6 +267,65 @@ function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
 }
 </script>
+<script>
+	
+	window.sr = ScrollReveal();
+	sr.reveal('.links',{
+		duration: 2000,
+		origin: 'buttom',
+		reset: false
+
+	});
+	sr.reveal('.title',{
+		duration: 3000,
+		reset: true,
+		origin: 'left',
+		distance: '300px'
+
+	});
+	sr.reveal('.discript',{
+		duration: 3000,
+		delay: 2000,
+		reset: true,
+		origin: 'right',
+		distance: '300px'
+
+	});
+	sr.reveal('.direct',{
+	duration: 3000,
+	delay: 4000,
+	reset: true,
+	origin: 'bottom',
+	distance: '50px'
+
+	});
+	sr.reveal('.left',{
+	duration: 3000,
+	origin: 'left',
+	reset: true,
+	distance: '300px'
+
+	});	
+	sr.reveal('.form-one',{
+	duration: 3000,
+	origin: 'left',
+	reset: true,
+	distance: '300px'
+
+	});
+	sr.reveal('.wrapper',{
+	duration: 3000,
+	origin: 'right',
+	distance: '300px',
+	reset: true
+	});
+
+	
+
+</script>
+  
+
+
    
 </body>
 </html>
