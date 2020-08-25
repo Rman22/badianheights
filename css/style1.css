@@ -294,6 +294,7 @@ position: relative;
 	flex:1;
 	flex: 1;
     margin: auto;
+       overflow: hidden;
 }
 .row .right{
 	background-color: #E27D60;
@@ -418,7 +419,7 @@ position: relative;
 
 	color: #fff;
 	border-radius: 5px;
-
+        overflow: hidden;
 	font-family: 'Montserrat', sans-serif;
 
 }
@@ -480,7 +481,7 @@ button.contact-bottom {
   grid-auto-rows: minmax(70px, auto);
   grid-gap: 5px;
  	line-height: 1.5;
-
+  overflow: hidden;
 
   
 }
