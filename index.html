@@ -342,6 +342,13 @@ $(document).ready(function(){
             /* and in your CSS: section { overflow: hidden; } */
         });
     });
+$(document).ready(function(){
+        $('.container').css('width',$(window).width());
+        $(window).resize(function(){
+            $('.container').css('width',$(window).width());
+            /* and in your CSS: section { overflow: hidden; } */
+        });
+    });
 </script>
   
 
