@@ -326,8 +326,22 @@ $(document).ready(function(){
             /* and in your CSS: section { overflow: hidden; } */
         });
     });
-	
 
+$(document).ready(function(){
+        $('.row').css('width',$(window).width());
+        $(window).resize(function(){
+            $('.row').css('width',$(window).width());
+            /* and in your CSS: section { overflow: hidden; } */
+        });
+    });
+	
+$(document).ready(function(){
+        $('.contact').css('width',$(window).width());
+        $(window).resize(function(){
+            $('.contact').css('width',$(window).width());
+            /* and in your CSS: section { overflow: hidden; } */
+        });
+    });
 </script>
   
 
