@@ -13,6 +13,9 @@ html{
 
 
 }
+::-webkit-scrollbar { 
+  width: 0px!important;
+} 
 
 html.sr .perfect{
     visibility: hidden;
