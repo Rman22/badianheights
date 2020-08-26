@@ -101,9 +101,10 @@ li a{
 
 }
 
-.sideNav .linked{
-	position: absolute;
-	top: 0;
+.sidenav .linked{
+
+	
+	  border-bottom: solid 1px;
 }
 .sidenav a {
   padding: 0px 8px 8px 32px;
@@ -113,6 +114,7 @@ li a{
   display: block;
   padding: 15px;
   transition: 0.3s;
+
 }
 
 .sidenav a:hover {
@@ -348,7 +350,7 @@ position: relative;
 
 }
 .row .right .about-content{
-	padding: 25px;
+	padding: 50px;
 	color:#eee;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 14px;
@@ -741,7 +743,14 @@ body{
 	background: #fff;
 
 }
+.row .right .about-content{
 
+	font-size: 12px;
+
+
+
+
+}
 
 }
 
