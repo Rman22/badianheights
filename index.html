@@ -153,7 +153,10 @@
 					"We open this site for sightseeing and to those who want to walk, jog, bike, and joy-ride with a view," he said.
 
 					To reach the Badian Highlands, vehicles will take the 13-kilometer road that covers barangays Poblacion, Taytay, Basak, Talayong, and Dobdob from the national highway. - Via SunStar Cebu</p>
+					<br>
+					<a href="#" class="more">Read More</a>
 				</div>
+
 			</div>
 		</div>
 	</div>
@@ -243,13 +246,13 @@ function closeNav() {
 	window.sr = ScrollReveal();
 	sr.reveal('.links',{
 		duration: 2000,
-		origin: 'buttom',
 		reset: false
 
 	});
         sr.reveal('.container-text h2',{
 		duration: 3000,
 		reset: true,
+		delay: 1000,
 		origin: 'left',
 		distance: '200px',
                 easing: 'ease-out'
@@ -258,7 +261,7 @@ function closeNav() {
         
 	sr.reveal('.discript',{
 		duration: 2000,
-		delay: 2000,
+		delay: 1000,
 		reset: true,
 		origin: 'right',
 		opacity: 0,
@@ -267,7 +270,7 @@ function closeNav() {
 	});
 	sr.reveal('.direct',{
 	duration: 2000,
-	delay: 3000,
+	delay: 1000,
 	opacity: 0,
 	reset: true,
 	origin: 'bottom',
@@ -282,17 +285,20 @@ function closeNav() {
 	distance: '300px'
 
 	});
-	   sr.reveal('.about-content',{
+	 sr.reveal('.infobox',{
 	duration: 2000,
+	origin: 'top',
 	reset: true,
-	opacity: 0
+	opacity: 0,
+	distance: '100px'
 
-	});
+	});	
 	sr.reveal('.details-group',{
 	duration: 3000,
 	origin: 'right',
 	reset: true,
 	opacity: 0,
+	delay: 1000,
 	distance: '300px'
 
 	});
@@ -302,6 +308,7 @@ function closeNav() {
 	origin: 'left',
 	distance: '300px',
 	opacity: 0,
+	delay: 1000,
 	reset: true
 	});
 	
