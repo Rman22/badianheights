@@ -103,7 +103,7 @@ li a{
 
 .sidenav .linked{
 
-	
+
 	  border-bottom: solid 1px;
 }
 .sidenav a {
@@ -155,6 +155,7 @@ li a{
 		padding: 10px;
 	border: solid 2px;
 	display: inline-block;
+	
 }
 .container-text h3{
 	 font-family: 'Caveat', cursive;
@@ -350,13 +351,24 @@ position: relative;
 
 }
 .row .right .about-content{
-	padding: 50px;
+	padding: 40px 50px 30px 50px;
 	color:#eee;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 14px;
 	line-height: 1.5;
 
 
+
+}
+.more{
+	margin: 0;
+	padding: 0;
+	top: 0;
+	position: relative;
+	text-decoration: none;
+	color: #eee;
+	padding: 5px;
+	border: 1px solid #eee;
 
 }
 
